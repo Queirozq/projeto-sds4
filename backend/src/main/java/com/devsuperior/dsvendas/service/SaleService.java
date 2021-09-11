@@ -30,7 +30,7 @@ public class SaleService {
     public Page<SaleDTO> findAll(Pageable pageable){
         sellerRepository.findAll();
         Page<Sale> list = repository.findAll(pageable);
-        return list.map(x-> new SaleDTO(x));
+        return list.map(x -> new SaleDTO(x));
     }
 
     @Transactional(readOnly = true)
