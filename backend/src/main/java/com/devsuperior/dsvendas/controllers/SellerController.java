@@ -1,5 +1,6 @@
 package com.devsuperior.dsvendas.controllers;
 
+import com.devsuperior.dsvendas.DTO.SaleSumDTO;
 import com.devsuperior.dsvendas.DTO.SellerDTO;
 import com.devsuperior.dsvendas.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
